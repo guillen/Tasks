@@ -1,0 +1,33 @@
+{
+    "name": "guillen/tasks",
+    "description": "My first Laravel component, just for learn",
+    "license": "MIT",
+    "keywords": ["laravel", "tasks"],
+    "authors": [
+        {
+            "name": "Luis Guillen",
+            "email": "luis.guillen@lungosoft.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/support": "^5.7",
+        "illuminate/database": "^5.7",
+        "illuminate/contracts": "^5.7",
+        "illuminate/http": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lungo\\Task\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lungo\\Task\\Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.2",
+        "phpunit/phpunit": "7"
+    }
+}
