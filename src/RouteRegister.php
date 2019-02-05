@@ -9,7 +9,7 @@ class RouteRegister
 {
     protected $router;
 
-    public function routes()
+    public static function routes()
     {
         $options = [
             'prefix' => 'lungo',

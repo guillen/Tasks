@@ -9,8 +9,8 @@ class TaskRepository
     public function createTask($name, $description = '') 
     {
         return Task::create([
-            $name,
-            $description ? $description : 'test',
+            'name' => $name,
+            'description' => $description ? $description : 'test',
         ]);
     }
 
